@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Home | Fr. Agnels</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width:880px)" href="index1.css"> -->
+    <link rel="stylesheet" media="screen and (max-width:880px)" href="index1.css">
+    <!-- https://source.unsplash.com/1400x350/?seo -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand mylogo" href="index.html">Fr. Agnels</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Admin Login</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="about.html">link</a>
+                </li> -->
+                <!-- <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+            </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Topics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#history">History</a>
+                        <a class="dropdown-item" href="#tech">Use of Modern Technology in our Hospital.</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#trained">Names of Specialized Doctors working 24/7 at our hospital.</a>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Book an Appointment</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>
+                <button type="button" class="btn btn-success margin" data-toggle="modal"
+                    data-target="#loginModal">Login</button>
+                <button type="button" class="btn btn-dark margin" data-toggle="modal" data-target="#signupModal">Sign
+                    Up</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <!-- login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I am not a Robot</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- signup Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="signupModalLabel">Signup</h1>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I am not a Robot</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Best integration of Medicine and Technology in the City.</h2>
+                        <p>Here at Fr. Agnel Hospital, We offer best integration of medical and technology fields. Learn
+                            more by clicking Best Integration of medicine and Technology
+                        </p>
+                        <button type="button" class="btn btn-primary text"><a href="#tech">Best Integration of medicine and technology</a></button>
+                        <button type="button" class="btn btn-secondary text"><a href="#history">History</a>
+                        </button>
+                        <button type="button" class="btn btn-info text"><a href="#trained">Achievements</a></button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Unique and Rich History</h2>
+                        <p>Learn about Fr. Agnel Hospital and the volunteery actions taken by our team during multiple
+                            pandemics throught our great history. Learn more by clicking History</p>
+                            <button type="button" class="btn btn-primary text"><a href="#tech">Best Integration of medicine and technology</a></button>
+                            <button type="button" class="btn btn-secondary text"><a href="#history">History</a>
+                            </button>
+                            <button type="button" class="btn btn-info text"><a href="#trained">Achievements</a></button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Get to know more about our professionals</h2>
+                        <p>We have best professional practitioners for each and every field. Learn more about their
+                            achievements by clicking Achievements</p>
+                            <button type="button" class="btn btn-primary text"><a href="#tech">Best Integration of medicine and technology</a></button>
+                            <button type="button" class="btn btn-secondary text"><a href="#history">History</a>
+                            </button>
+                            <button type="button" class="btn btn-info text"><a href="#trained">Achievements</a></button>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="content">
+            <div class="row featurette history" id="history">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Know more about our  <span class="text-muted">Glorious History</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                        tellus ac cursus commodo Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                        nostrum
+                        ab sint laboriosam quas, eaque deserunt impedit laborum! Eveniet aliquid debitis vitae dolore
+                        laborum est ratione unde sit, quas ipsa, itaque, quod temporibus voluptas. Adipisci, est? Culpa
+                        iusto ea odit fugit ducimus illum incidunt voluptatum aut velit molestiae. Unde ex, omnis
+                        tempora
+                        ducimus error dolor est natus quo accusantium aliquid?</p>
+                </div>
+                <div class="col-md-5 margin">
+                    <img src="history,jpg.jfif" alt="">
+                </div>
+            </div>
+            <div class="row featurette" id="tech">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Best Integration of Medical and technological science <span class="text-muted">in the city.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                        tellus ac cursus commodo Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore
+                        nulla maiores eaque totam a pariatur corrupti omnis delectus dolor odit, atque itaque quaerat
+                        eius
+                        tenetur nemo! Dolorem, laudantium. Voluptas dolor eos eaque libero saepe magni alias, voluptatem
+                        iure laudantium. Dicta, sint ad perspiciatis quibusdam adipisci nostrum modi! Inventore enim at
+                        quis
+                        velit quia! Ea optio laboriosam sapiente perferendis veritatis!</p>
+                </div>
+                <div class="col-md-5 margin">
+                    <img src="tech.jpg" alt="">
+                </div>
+            </div>
+            <div class="row featurette" id="trained">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">About our <span class="text-muted">Trained professionals.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                        tellus ac cursus commodo Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                        officiis
+                        voluptatem excepturi quibusdam voluptates enim sed dolorum soluta est consequuntur hic eius,
+                        nulla
+                        laboriosam natus cupiditate, adipisci vel atque rerum quam reiciendis? Similique impedit
+                        doloribus
+                        modi incidunt pariatur dicta id temporibus amet facere porro? Vel voluptate ipsum, impedit
+                        aperiam
+                        nobis quia culpa rem, provident ut minima itaque eum? Inventore, ipsam.</p>
+                </div>
+                <div class="col-md-5 margin">
+                    <img src="doctor.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container d-flex justify-content-around align-items-center">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2017–2022 Thakkars coding blog, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+.margin{
+    margin:1rem 0rem;
+}
+.f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text a{
+    color:white;
+    text-decoration: none;
+}
+/* .mylogo{
+    color:orangered;
+    font-family: ;
+} */
